@@ -4,7 +4,8 @@
         var action = component.get("c.getLuoghi")
         action.setCallback(this,(response)=>{
             if(response.getState() === "SUCCESS"){
-                response.getReturnValue().forEach(luogo =>{
+                response.getReturnValue().forEach(conf =>{
+                    var luogo = conf.Luogo__r
                     locationList.push({
                         location: {
                             Street: luogo.Indirizzo__c,
