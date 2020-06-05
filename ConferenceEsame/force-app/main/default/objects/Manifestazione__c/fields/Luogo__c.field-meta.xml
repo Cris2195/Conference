@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Luogo__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Luogo</label>
-    <length>50</length>
-    <required>true</required>
+    <referenceTo>Luogo__c</referenceTo>
+    <relationshipLabel>Manifestazione</relationshipLabel>
+    <relationshipName>Manifestazione</relationshipName>
+    <required>false</required>
     <trackTrending>false</trackTrending>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>Lookup</type>
 </CustomField>
