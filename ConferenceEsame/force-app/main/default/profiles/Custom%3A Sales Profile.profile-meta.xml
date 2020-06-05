@@ -3,9 +3,65 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Conferenza__c.Data_ora_fine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Data_ora_inizio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Luogo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Manifestazione__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Nome__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Relatore__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Luogo__c.Capacita_Massima__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Luogo__c.Indirizzo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Luogo__c.Nome__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Luogo__c.Stanza__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Manifestazione__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Conferenza__c-Conferenza Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Luogo__c-Luogo Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Manifestazione__c-Layout Manifestazione</layout>
     </layoutAssignments>
