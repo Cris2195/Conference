@@ -76,14 +76,6 @@
         <layout>Manifestazione__c-Layout Manifestazione</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Conferenza__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Luogo__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Manifestazione__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

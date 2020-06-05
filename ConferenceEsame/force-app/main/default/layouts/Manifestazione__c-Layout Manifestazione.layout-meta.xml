@@ -20,11 +20,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Account__c</field>
+                <field>Luogo__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Luogo__c</field>
+                <field>Account__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
