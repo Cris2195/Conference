@@ -20,10 +20,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Manifestazione__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Data_ora_inizio__c</field>
             </layoutItems>
             <layoutItems>
@@ -33,6 +29,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Luogo__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Manifestazione__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
