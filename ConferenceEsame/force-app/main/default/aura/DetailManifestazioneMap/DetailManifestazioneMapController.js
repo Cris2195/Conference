@@ -24,7 +24,13 @@
                     })
                 })
                 console.log(locationList)
+                if(locationList.length === 0){
+                    component.set("v.messageIfListEmpty","Nessuna conferenza per la Manifestazione")
+                    component.set("v.showMap",false)
+                }
+                else{
                 component.set("v.mapMarkers",locationList) 
+                }
             }
         })
          $A.enqueueAction(action)
