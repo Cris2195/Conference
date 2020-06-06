@@ -1,8 +1,13 @@
 ({
-    init : function(component, event, helper) {
+    loadMap : function(component, event, helper) {
         var locationList = []
-        var action = component.get("c.getLuoghi")
-        action.setCallback(this,(response)=>{
+        var action = component.get("c.getConferenzePerManifestazione")
+        action.setParams(
+            {
+                id : component.get("v.recordId")
+            }
+        )
+        action.setCallback(this, function(response){
             if(response.getState() === "SUCCESS"){
                 response.getReturnValue().forEach(conf =>{
                     var luogo = conf.Luogo__r
@@ -18,11 +23,11 @@
                             '',
                     })
                 })
-    			console.log( locationList)
+                console.log(locationList)
                 component.set("v.mapMarkers",locationList) 
             }
         })
          $A.enqueueAction(action)
-    }
-        
+            }
+    
 })
